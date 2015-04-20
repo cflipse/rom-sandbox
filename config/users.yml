@@ -1,0 +1,5 @@
+users:
+  - name: "John Doe"
+    email: "jdoe@example.com"
+  - name: "Jane Smith"
+    email: "jsmith@example.com"
