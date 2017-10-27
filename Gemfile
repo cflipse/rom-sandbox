@@ -2,7 +2,14 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0'
+# gem 'rails', '~> 5.0'
+rails_version = "~> 5.0"
+
+gem 'actionpack', rails_version
+gem 'actionmailer', rails_version
+gem 'activemodel', rails_version
+
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
