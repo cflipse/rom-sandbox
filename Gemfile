@@ -25,10 +25,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 
 # Add a bunch of ROM gems
-gem 'rom'
+gem 'rom', "~> 4.0"
 gem 'rom-sql'
 gem 'rom-rails'
-gem 'rom-yaml'
+gem 'rom-yaml', '~> 2.0.0.beta'
+gem 'rom-repository'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
